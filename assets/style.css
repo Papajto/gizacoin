@@ -71,6 +71,32 @@ nav ul li a:hover {
     color: #fff;
 }
 
+/* Social Buttons */
+.social-buttons {
+    margin-top: 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.button.social {
+    background: linear-gradient(90deg, #00ffff, #ff00ff);
+    color: #000;
+    padding: 12px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: 0.3s;
+}
+
+.button.social:hover {
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    color: #fff;
+    box-shadow: 0 0 20px #00ffff, 0 0 30px #ff00ff;
+}
+
 /* Footer */
 footer {
     text-align: center;
