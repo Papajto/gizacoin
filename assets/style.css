@@ -79,12 +79,11 @@ footer {
     margin-top: 50px;
 }
 
-/* Live Chart */
-.chart-container {
-    width: 80%;
-    max-width: 1000px;
-    margin: 0 auto 100px;
-    height: 400px;
+/* Chart message */
+.chart-container p {
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 50px;
 }
 
 /* Particle Background */
@@ -96,14 +95,15 @@ footer {
     left: 0;
     z-index: -1;
 }
-/* Modal hidden by default */
+
+/* Modal */
 .modal {
     display: none;
     position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
     background: rgba(0,0,0,0.85);
     color: #fff;
     z-index: 100;
