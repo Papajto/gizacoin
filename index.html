@@ -22,12 +22,26 @@
 <section class="hero">
     <h1>Gizacoin</h1>
     <p>Quantum Decentralized Synergy Protocol</p>
-    <button class="button">Buy Gizacoin</button>
+    <button class="button" onclick="document.getElementById('buyModal').style.display='flex'">Buy Gizacoin</button>
 </section>
 
 <section class="chart-container">
-    <iframe src="https://pump.fun/chart/Pgrw12UyGiz91xFSLJ1pRAGa3c6ExHGooRa4hcZpump" width="100%" height="400" frameborder="0"></iframe>
+    <p style="text-align:center; font-size:1.5em; margin-top:50px;">
+        The live chart is currently blocked. Click "Buy Gizacoin" to go to the pump.fun page.
+    </p>
 </section>
+
+<!-- Buy Modal -->
+<div id="buyModal" style="display:none;position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.85);color:#fff;z-index:100;justify-content:center;align-items:center;display:flex;">
+  <div style="background:#111; padding:50px; border-radius:15px; max-width:600px; text-align:center;">
+    <h2 style="text-shadow: 0 0 10px #00ffff;">How to Buy Gizacoin</h2>
+    <p>1. Go to the coin page:</p>
+    <p><a href="https://pump.fun/coin/Pgrw12UyGiz91xFSLJ1pRAGa3c6ExHGooRa4hcZpump" target="_blank" style="color:#00ffff; font-weight:bold;">pump.fun Gizacoin</a></p>
+    <p>2. Connect your wallet</p>
+    <p>3. Purchase Gizacoin and enjoy the quantum synergy</p>
+    <button class="button" onclick="document.getElementById('buyModal').style.display='none'">Close</button>
+  </div>
+</div>
 
 <footer>
     <p>&copy; 2025 Gizacoin | All Rights Reserved</p>
