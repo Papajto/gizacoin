@@ -73,11 +73,12 @@ nav ul li a:hover {
 
 /* Social Buttons */
 .social-buttons {
-    margin-top: 30px;
+    margin-top: 60px; /* increased from 30px to 60px */
     display: flex;
     gap: 20px;
     justify-content: center;
 }
+
 
 .button.social {
     background: linear-gradient(90deg, #00ffff, #ff00ff);
